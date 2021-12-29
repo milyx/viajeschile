@@ -1,2 +1,2 @@
 # viajeschile
-Proyecto final
+Proyecto final de curso fundamentos web
