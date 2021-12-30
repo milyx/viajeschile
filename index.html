@@ -20,23 +20,27 @@
 
 <body>
     <!-- Inicio menú de navegación-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="" alt="logo"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                    <a class="nav-link" href="#">Quiénes Somos</a>
-                    <a class="nav-link" href="#">Destacados</a>
-                    <a class="nav-link disabled">Contacto</a>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top color">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img class="logo" src="assets/img/viajes.svg" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav text-white">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link text-white" href="#">Quiénes Somos</a>
+                        <a class="nav-link text-white" href="#">Destacados</a>
+                        <a class="nav-link disabled text-white">Contacto</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
+
     <!--fin menú de navegación-->
 
     <!--section slider-->
@@ -73,86 +77,99 @@
     </div>
     <!-- fin section slider-->
 
+    <h2>
+        ¿Quiénes somos?
+    </h2>
+
     <!-- section ¿quienes somos?-->
-    <section class="container">
+    <section class="container max-width 100%">
         <div class="row">
-            <h2>Quiénes somos</h2>
-            <div class="col">
-                <img src="" alt="">
+            <div class="col-12 col-md-4">
+                <div class=" bg-icon"><i class="fas fa-plane"></i></div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem magni quam quisquam totam
                     optio animi nobis, quod deserunt illo laboriosam quasi pariatur. Sunt nihil magnam ducimus
                     laboriosam officia vitae consequatur.</p>
             </div>
-            <div class="col">
-                <img src="" alt="">
+            <div class="col-12 col-md-4">
+                <div class=" bg-icon"><i class="fas fa-mountain"></i></div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem magni quam quisquam totam
                     optio animi nobis, quod deserunt illo laboriosam quasi pariatur. Sunt nihil magnam ducimus
                     laboriosam officia vitae consequatur.</p>
-
             </div>
-            <div class="col">
-                <img src="" alt="">
+            <div class="col-12 col-md-4">
+                <div class=" bg-icon"><i class="fas fa-route"></i></div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem magni quam quisquam totam
                     optio animi nobis, quod deserunt illo laboriosam quasi pariatur. Sunt nihil magnam ducimus
                     laboriosam officia vitae consequatur.</p>
-
             </div>
         </div>
-        <!-- fin section ¿quienes somos?-->
     </section>
-
+    <!-- fin section ¿quienes somos?-->
     <!-- section destacados-->
-    <section class="container">
-        <div class="row">
-            <h2>Destacados</h2>
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col"></div>
-            <div class="card" style="width: 18rem;">
-                <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                </div>
-            </div>
-            <div class="col"></div>
-            <div class="card" style="width: 18rem;">
-                <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                    </div>
-                </div>
-            </div>
+   
+  <section class="my-3  pt-4 mx-4">
+    <h1 class="text-center border-top border-dark mt-5 pt-4">Destacados</h1>
+    <div class="container mt-5">
+      <div class="row justify-content-around">
+        <div class="card col-12 col-md-4 card-content">
+          <img src="assets/img/card1.jpg" class="card-img-top" alt="img-montañas">
+          <div class="card-body">
+            <h5 class="card-title">Aquí el título</h5>
+            <p class="card-text">TMus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate
+              nostra,
+              blandit erat luctus faucibus orci.</p>
+          </div>
         </div>
-    </section>
+        <div class="card col-12 col-md-4 card-content">
+          <img src="assets/img/card2.jpg" class="card-img-top" alt="img-lago">
+          <div class="card-body">
+            <h5 class="card-title">Aquí el título</h5>
+            <p class="card-text">TMus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate
+                nostra,
+                blandit erat luctus faucibus orci</p>
+          </div>
+        </div>
+        <div class="card col-12 col-md-4 card-content">
+            <img src="assets/img/card3.jpg" class="card-img-top" alt="img-piedras">
+            <div class="card-body">
+              <h5 class="card-title">Aquí el título</h5>
+              <p class="card-text">TMus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate
+                nostra,
+                blandit erat luctus faucibus orci</p>
+            </div>
+          </div>
+        <div class="card col-12 col-md-4 card-content">
+          <img src="assets/img/card4.jpg" class="card-img-top" alt="img-bosque">
+          <div class="card-body">
+            <h5 class="card-title">Aquí el título</h5>
+            <p class="card-text">TMus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate
+                nostra,
+                blandit erat luctus faucibus orci</p>
+          </div>
+        </div>
+
+
+
+
+
+
     <!--fin section destacados-->
     <!--contact section-->
-    <section>
+    <section class="max-width: 100%">
         <h2>Contacto</h2>
-        <div data-tf-widget="JaW0Bri5" data-tf-iframe-props="title=viajeschile" style="width:100%;height:400px;"></div>
-        <script src="//embed.typeform.com/next/embed.js"></script>
+        <div>
+            <div class="typeform" data-tf-widget="JaW0Bri5" data-tf-iframe-props="title=viajeschile">
+            </div>
+            <script src="//embed.typeform.com/next/embed.js"></script>
+        </div>
     </section>
     <!-- fin contact section-->
 
-    <!-- section footer-->
-    <footer>
-        <div>VIAJES CHILE</div>
+    <!-- inicio section footer-->
+    <footer class="turquesa">
+        <div>
+            <h3>VIAJES CHILE</h3>
+        </div>
         <Div>
             <i class="fab fa-github"></i>
             <i class="fab fa-twitter"></i>
@@ -161,8 +178,8 @@
         </Div>
 
     </footer>
-    <!-- fin section section-->
 
+    <!-- fin footer-->
 
     <!--Mi script-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
