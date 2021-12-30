@@ -7,8 +7,13 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: #000;
+    color: #ffffff;
     
 } 
+html{
+    scroll-behavior: smooth;
+}
 
 h2{
     text-align: center;
@@ -25,11 +30,13 @@ h2{
     border-top: solid color #17a3b8;
 
 }
+
 .card{
     align-items: center;
     text-align: justify;
     height: 350px;
     width: 260px;
+    background-color: #17a3b8;
    
 }
 
@@ -38,9 +45,11 @@ h2{
     background-color: #17a3b8;
     color: white;
     text-align: center;
+    padding: 10px 0;
 }
 .tex-icon{
     align-items: center;
+    
 }
 .typeform{
     width:100%;
@@ -51,5 +60,45 @@ footer{
     background-color: #17a3b8;
     color: white;
     height: 80px;
+    display: flex;
+    justify-content: space-around;
 
+
+}
+
+
+
+/*
+.img-carousel{
+    width: 100%;
+    height: auto;
+  }
+  @supports(object-fit: cover){
+      .img-carousel{
+        height: 100vh;
+        object-fit: cover;
+        object-position: center center;
+      }
+  }
+*/
+.img-carousel{
+    width: 100%;
+    height: auto;
+}
+#navbarNavAltMarkup {
+
+    justify-content: flex-end;
+}
+.ancho{
+    padding: 0 90px;
+}
+
+@media screen and (max-width: 992px){
+    .ancho{
+    padding: 0 10px;
+ }
+}
+.ancho-contenedor{
+    padding: 0;
+    margin: 0;
 }
