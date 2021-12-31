@@ -125,7 +125,8 @@ footer{
 }
 
 .decoration-icon{
-    box-shadow: none;
+   color: #ffffff;
+   text-decoration: none;
 }
 
 
