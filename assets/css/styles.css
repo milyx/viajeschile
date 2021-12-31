@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Cabin', sans-serif;
     background-color: #000;
     color: #ffffff;
     
@@ -14,32 +14,53 @@ body {
 html{
     scroll-behavior: smooth;
 }
-
-h2{
-    text-align: center;
-}
-.logo{
-    height: 30px;
-}
-.color{
-    background-color: #17a3b8;
-    color: white;
-}
-
-.bordertop{
-    border-top: solid color #17a3b8;
-
-}
-
-.card{
-    align-items: center;
-    text-align: justify;
-    height: 350px;
-    width: 260px;
-    background-color: #17a3b8;
+.border-green{
+    border-top: solid 1px  #17a4ba;  
    
 }
 
+h1{
+    font-weight: 600;
+    font-size: 20px;
+    text-align: left;
+}
+
+h2{                                         
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;     
+}
+h3{
+    font-weight: 600;
+    font-size: 16px;   
+}
+.logo{
+    height: 40px;
+    
+}
+.color{
+    background-color: #17a4ba;
+    color: white;
+}
+
+
+.card{
+    align-items: center;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: justify;
+    height: 340px;
+    width: 260px;
+    background-color: #17a3b8;  
+
+}
+.img-card{
+    height: 173px;
+}
+.card-title{
+    font-weight: 600;
+    font-size: 20px;
+}
 
 .bg-icon{
     background-color: #17a3b8;
@@ -49,7 +70,7 @@ h2{
 }
 .tex-icon{
     align-items: center;
-    
+   
 }
 .typeform{
     width:100%;
@@ -62,25 +83,8 @@ footer{
     height: 80px;
     display: flex;
     justify-content: space-around;
-
-
 }
 
-
-
-/*
-.img-carousel{
-    width: 100%;
-    height: auto;
-  }
-  @supports(object-fit: cover){
-      .img-carousel{
-        height: 100vh;
-        object-fit: cover;
-        object-position: center center;
-      }
-  }
-*/
 .img-carousel{
     width: 100%;
     height: auto;
@@ -91,6 +95,8 @@ footer{
 }
 .ancho{
     padding: 0 90px;
+    
+  
 }
 
 @media screen and (max-width: 992px){
@@ -102,3 +108,25 @@ footer{
     padding: 0;
     margin: 0;
 }
+
+.parrafo{
+    text-align: left;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    font-weight: 300;
+    font-size: 16px;
+    
+}
+#parrafo2{
+    text-align: left;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+
+}
+
+.decoration-icon{
+    text-decoration: none important!;
+}
+
+
+

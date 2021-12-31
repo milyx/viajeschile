@@ -1,2 +1,1 @@
-# viajeschile
-Proyecto final de curso fundamentos web
+https://milyx.github.io/viajeschile/
